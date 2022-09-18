@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.container{
+    border: 1px solid brown;
+padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    color: rgb(0, 0, 0);   
+}
+/* ***************************************************** */
+
+.top__container{
+   display:inline-flex;
+}
+
+.global__container{
+background:  linear-gradient( rgb(230, 230, 230), rgba(255, 255, 255, 0.74) ), url("https://folga.com.ua/graphics/events/1619429183_shutterstock-1480095632apau.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+
+.top__containerLeft {
+    margin: auto;
+}
+.top__containerCenter{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.top__containerRight{
+    display: flex;
+    margin: auto;
+}
+.top__containerCenter li{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+/* ***************************************************** */
+
+a:hover{
+    color: rgba(0, 0, 0, 0.329);   
+}
+.list__item{
+    margin: 10px;
+    padding: 20px;
+}
+.list__container{
+    display: inline-flex;
+    align-items: center;
+    color: rgb(0, 0, 0);   
+}
+
+.menu__box li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+    /* margin: auto; */
+    list-style: none;
+}
+
+
+/* ***************************************************** */
+a{    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+/* ****************************ЦЕНТР ************************* */
+
+.center__container{
+    display: flex;
+    margin: auto;
+}
+.center__container h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.center__containerAbout p{
+   padding: 200px;
+   /* width: 50%; */
+   font-size: 20px;
+   word-spacing: 20px;
+}
+/* ***************************************************** */
+
+
+@media (max-width: 1000px){
+
+    /* .global__container{
+        background:  linear-gradient( rgb(230, 230, 230), rgba(255, 255, 255, 0.753) ), url("https://folga.com.ua/graphics/events/1619429183_shutterstock-1480095632apau.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    } */
+    .top__container li{
+        
+        font-size: 30px;
+    }
+
+    .top__container{
+        display: flex;
+     
+    }
+
+
+        .center__container-about p{
+            font-size: 15px;
+            text-align:center;
+        }
+
+    
+}
+
